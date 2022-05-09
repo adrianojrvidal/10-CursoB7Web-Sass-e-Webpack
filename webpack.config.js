@@ -12,5 +12,14 @@ module.exports = {
         path: path.resolve(__dirname, 'dist')
     },
     //mode:'production' >> mais leve
-    mode:'development'
+    mode:'development',
+    module: {
+        rules: 
+        [
+            // Regra 1 - Css
+            { test:/\.css$/, use:['style-loader', 'css-loader']},
+            // Regra 2 - Sass
+            {test:/\.scss$/, use:['style-loader', 'css-loader', 'sass-loader']}
+        ]
+    }
 };
