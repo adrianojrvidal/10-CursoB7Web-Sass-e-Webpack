@@ -1,0 +1,29 @@
+{
+  "name": "10-cursob7web-sass-e-webpack",
+  "version": "1.0.0",
+  "description": "Aula prática de Sass e Webpack",
+  "private":"true",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianojrvidal/10-CursoB7Web-Sass-e-Webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrianojrvidal/10-CursoB7Web-Sass-e-Webpack/issues"
+  },
+  "homepage": "https://github.com/adrianojrvidal/10-CursoB7Web-Sass-e-Webpack#readme",
+  "devDependencies": {
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}
